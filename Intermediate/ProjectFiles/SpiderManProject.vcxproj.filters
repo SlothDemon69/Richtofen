@@ -1,0 +1,544 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\SpiderManProject.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{577898A2-4A4C-403A-BD61-D851874E63C0}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\SpiderManProject.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\SpiderManProjectEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{14EF8E26-3BC0-4DD9-BA3D-1EE48E13BDBB}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Plugins">
+			<UniqueIdentifier>{73E06F4E-EC7E-445C-8081-5713EA5E9397}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\AdvancedSessions">
+			<UniqueIdentifier>{4314C1D8-E6EE-462F-BAE9-63B94F6894B9}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\AdvancedSessions\AdvancedSessions">
+			<UniqueIdentifier>{AEF84564-23B5-4A4A-8FE3-E94B3EA45507}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\AdvancedSessions\AdvancedSessions\Source">
+			<UniqueIdentifier>{DE7F9C2A-8AA9-4AE6-ABE3-218BCC5816FB}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions">
+			<UniqueIdentifier>{62DAC94E-EAA3-4BFD-86F5-9AB9B77F9DD2}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\AdvancedSessions.Build.cs">
+			<Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions</Filter>
+		</None >
+		<Filter Include="Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes">
+			<UniqueIdentifier>{AB93C24F-0AB6-4DCA-93A3-327452BFEC1D}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes\AdvancedExternalUILibrary.h">
+			<Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes\AdvancedFriendsGameInstance.h">
+			<Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes\AdvancedFriendsInterface.h">
+			<Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes\AdvancedFriendsLibrary.h">
+			<Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes\AdvancedIdentityLibrary.h">
+			<Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes\AdvancedSessions.h">
+			<Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes\AdvancedSessionsLibrary.h">
+			<Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes\AdvancedVoiceLibrary.h">
+			<Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes\BlueprintDataDefinitions.h">
+			<Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes\CancelFindSessionsCallbackProxy.h">
+			<Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes\CreateSessionCallbackProxyAdvanced.h">
+			<Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes\EndSessionCallbackProxy.h">
+			<Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes\FindFriendSessionCallbackProxy.h">
+			<Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes\FindSessionsCallbackProxyAdvanced.h">
+			<Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes\GetFriendsCallbackProxy.h">
+			<Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes\GetRecentPlayersCallbackProxy.h">
+			<Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes\GetUserPrivilegeCallbackProxy.h">
+			<Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes\LoginUserCallbackProxy.h">
+			<Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes\LogoutUserCallbackProxy.h">
+			<Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes\OnlineSubSystemHeader.h">
+			<Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes\SendFriendInviteCallbackProxy.h">
+			<Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes\UpdateSessionCallbackProxyAdvanced.h">
+			<Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private">
+			<UniqueIdentifier>{D35E6BD7-0E15-459D-9B34-50BB1D55E5B6}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private\AdvancedExternalUILibrary.cpp">
+			<Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private\AdvancedFriendsGameInstance.cpp">
+			<Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private\AdvancedFriendsInterface.cpp">
+			<Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private\AdvancedFriendsLibrary.cpp">
+			<Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private\AdvancedIdentityLibrary.cpp">
+			<Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private\AdvancedSessions.cpp">
+			<Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private\AdvancedSessionsLibrary.cpp">
+			<Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private\AdvancedVoiceLibrary.cpp">
+			<Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private\CancelFindSessionsCallbackProxy.cpp">
+			<Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private\CreateSessionCallbackProxyAdvanced.cpp">
+			<Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private\EndSessionCallbackProxy.cpp">
+			<Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private\FindFriendSessionCallbackProxy.cpp">
+			<Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private\FindSessionsCallbackProxyAdvanced.cpp">
+			<Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private\GetFriendsCallbackProxy.cpp">
+			<Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private\GetRecentPlayersCallbackProxy.cpp">
+			<Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private\GetUserPrivilegeCallbackProxy.cpp">
+			<Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private\LoginUserCallbackProxy.cpp">
+			<Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private\LogoutUserCallbackProxy.cpp">
+			<Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private\SendFriendInviteCallbackProxy.cpp">
+			<Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private\UpdateSessionCallbackProxyAdvanced.cpp">
+			<Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private</Filter>
+		</ClCompile >
+		<None Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\AdvancedSessions.uplugin">
+			<Filter>Plugins\AdvancedSessions\AdvancedSessions</Filter>
+		</None >
+		<Filter Include="Plugins\AdvancedSessions\AdvancedSessions\Resources">
+			<UniqueIdentifier>{907A8A80-D042-4C67-B2EF-7B4BC85D1149}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Resources\Icon128.png">
+			<Filter>Plugins\AdvancedSessions\AdvancedSessions\Resources</Filter>
+		</None >
+		<Filter Include="Plugins\AdvancedSessions\AdvancedSteamSessions">
+			<UniqueIdentifier>{044DA2B7-8D74-4D2D-B7A9-0741A033E751}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\AdvancedSessions\AdvancedSteamSessions\AdvancedSteamSessions.uplugin">
+			<Filter>Plugins\AdvancedSessions\AdvancedSteamSessions</Filter>
+		</None >
+		<Filter Include="Plugins\AdvancedSessions\AdvancedSteamSessions\Resources">
+			<UniqueIdentifier>{5AA6C7EB-A29E-45D7-BA79-DC8949105362}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\AdvancedSessions\AdvancedSteamSessions\Resources\Icon128.png">
+			<Filter>Plugins\AdvancedSessions\AdvancedSteamSessions\Resources</Filter>
+		</None >
+		<Filter Include="Plugins\VRExpansionPlugin">
+			<UniqueIdentifier>{438C9518-A12B-4B80-A3AA-9C2DC026BA80}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\VRExpansionPlugin\OpenVRExpansionPlugin">
+			<UniqueIdentifier>{1146537C-810A-4D01-BE2F-8ECF10DD8FF5}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\VRExpansionPlugin\OpenVRExpansionPlugin\OpenVRExpansionPlugin.uplugin">
+			<Filter>Plugins\VRExpansionPlugin\OpenVRExpansionPlugin</Filter>
+		</None >
+		<Filter Include="Plugins\VRExpansionPlugin\OpenVRExpansionPlugin\Resources">
+			<UniqueIdentifier>{A16AF2F6-F4C3-4743-9925-AC6885164773}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\VRExpansionPlugin\OpenVRExpansionPlugin\Resources\Icon128.png">
+			<Filter>Plugins\VRExpansionPlugin\OpenVRExpansionPlugin\Resources</Filter>
+		</None >
+		<Filter Include="Plugins\VRExpansionPlugin\VRExpansionPlugin">
+			<UniqueIdentifier>{9C7CB97E-B759-4913-8A66-9A92B5B54A5D}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\VRExpansionPlugin.uplugin">
+			<Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin</Filter>
+		</None >
+		<Filter Include="Plugins\VRExpansionPlugin\VRExpansionPlugin\Resources">
+			<UniqueIdentifier>{331D482A-86F8-4EFF-8872-B0BBD1789462}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Resources\Icon128.png">
+			<Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Resources</Filter>
+		</None >
+		<Filter Include="Plugins\AdvancedSessions\AdvancedSteamSessions\Source">
+			<UniqueIdentifier>{A898AA75-E8C7-4A42-9EC3-2BEB99AB60C4}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions">
+			<UniqueIdentifier>{0A6F200A-4A9C-4BD2-8BB2-2F44607BBD68}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\AdvancedSteamSessions.Build.cs">
+			<Filter>Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions</Filter>
+		</None >
+		<Filter Include="Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Classes">
+			<UniqueIdentifier>{39948F2D-C4DB-44B2-B941-2DC050E1B38E}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Classes\AdvancedSteamFriendsLibrary.h">
+			<Filter>Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Classes</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Classes\AdvancedSteamSessions.h">
+			<Filter>Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Classes</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Classes\AdvancedSteamWorkshopLibrary.h">
+			<Filter>Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Classes</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Classes\SteamRequestGroupOfficersCallbackProxy.h">
+			<Filter>Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Classes</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Classes\SteamWSRequestUGCDetailsCallbackProxy.h">
+			<Filter>Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Classes</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Private">
+			<UniqueIdentifier>{AC8245D8-9541-40D5-BE5D-67139738E3D5}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Private\AdvancedSteamFriendsLibrary.cpp">
+			<Filter>Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Private\AdvancedSteamSessions.cpp">
+			<Filter>Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Private\AdvancedSteamWorkshopLibrary.cpp">
+			<Filter>Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Private\SteamRequestGroupOfficersCallbackProxy.cpp">
+			<Filter>Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Private\SteamWSRequestUGCDetailsCallbackProxy.cpp">
+			<Filter>Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Private</Filter>
+		</ClCompile >
+		<Filter Include="Plugins\VRExpansionPlugin\OpenVRExpansionPlugin\Source">
+			<UniqueIdentifier>{B507B1BF-8BB8-4E41-8F60-33A9C7A774F2}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\VRExpansionPlugin\OpenVRExpansionPlugin\Source\OpenVRExpansionPlugin">
+			<UniqueIdentifier>{50E41EDF-43B8-405C-B593-D4982E7CA4AE}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\VRExpansionPlugin\OpenVRExpansionPlugin\Source\OpenVRExpansionPlugin\OpenVRExpansionPlugin.Build.cs">
+			<Filter>Plugins\VRExpansionPlugin\OpenVRExpansionPlugin\Source\OpenVRExpansionPlugin</Filter>
+		</None >
+		<Filter Include="Plugins\VRExpansionPlugin\OpenVRExpansionPlugin\Source\OpenVRExpansionPlugin\Private">
+			<UniqueIdentifier>{3C73CA0B-C98E-45BC-A736-DE8A67ED47A8}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Plugins\VRExpansionPlugin\OpenVRExpansionPlugin\Source\OpenVRExpansionPlugin\Private\GripSteamVRTrackedDevice.cpp">
+			<Filter>Plugins\VRExpansionPlugin\OpenVRExpansionPlugin\Source\OpenVRExpansionPlugin\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\VRExpansionPlugin\OpenVRExpansionPlugin\Source\OpenVRExpansionPlugin\Private\OpenVRExpansionFunctionLibrary.cpp">
+			<Filter>Plugins\VRExpansionPlugin\OpenVRExpansionPlugin\Source\OpenVRExpansionPlugin\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\VRExpansionPlugin\OpenVRExpansionPlugin\Source\OpenVRExpansionPlugin\Private\OpenVRExpansionPlugin.cpp">
+			<Filter>Plugins\VRExpansionPlugin\OpenVRExpansionPlugin\Source\OpenVRExpansionPlugin\Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\VRExpansionPlugin\OpenVRExpansionPlugin\Source\OpenVRExpansionPlugin\Private\OpenVRExpansionPluginPrivatePCH.h">
+			<Filter>Plugins\VRExpansionPlugin\OpenVRExpansionPlugin\Source\OpenVRExpansionPlugin\Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\VRExpansionPlugin\OpenVRExpansionPlugin\Source\OpenVRExpansionPlugin\Private\SteamVRKeyboardComponent.cpp">
+			<Filter>Plugins\VRExpansionPlugin\OpenVRExpansionPlugin\Source\OpenVRExpansionPlugin\Private</Filter>
+		</ClCompile >
+		<Filter Include="Plugins\VRExpansionPlugin\OpenVRExpansionPlugin\Source\OpenVRExpansionPlugin\Public">
+			<UniqueIdentifier>{4A1FBD98-8D9E-4EBD-8351-8D60E4740A85}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\VRExpansionPlugin\OpenVRExpansionPlugin\Source\OpenVRExpansionPlugin\Public\GripSteamVRTrackedDevice.h">
+			<Filter>Plugins\VRExpansionPlugin\OpenVRExpansionPlugin\Source\OpenVRExpansionPlugin\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\VRExpansionPlugin\OpenVRExpansionPlugin\Source\OpenVRExpansionPlugin\Public\OpenVRExpansionFunctionLibrary.h">
+			<Filter>Plugins\VRExpansionPlugin\OpenVRExpansionPlugin\Source\OpenVRExpansionPlugin\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\VRExpansionPlugin\OpenVRExpansionPlugin\Source\OpenVRExpansionPlugin\Public\OpenVRExpansionPlugin.h">
+			<Filter>Plugins\VRExpansionPlugin\OpenVRExpansionPlugin\Source\OpenVRExpansionPlugin\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\VRExpansionPlugin\OpenVRExpansionPlugin\Source\OpenVRExpansionPlugin\Public\SteamVRKeyboardComponent.h">
+			<Filter>Plugins\VRExpansionPlugin\OpenVRExpansionPlugin\Source\OpenVRExpansionPlugin\Public</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\VRExpansionPlugin\VRExpansionPlugin\Source">
+			<UniqueIdentifier>{36D93214-AC52-4D75-8C76-7DD7E8299BC8}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin">
+			<UniqueIdentifier>{54EDCD3E-2E1A-4880-8248-0DC8589ED6F2}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\VRExpansionPlugin.Build.cs">
+			<Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin</Filter>
+		</None >
+		<Filter Include="Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private">
+			<UniqueIdentifier>{C2F97808-0E5E-4A9F-BFFA-36F1A48307F7}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\GripMotionControllerComponent.cpp">
+			<Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\GrippableBoxComponent.cpp">
+			<Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\GrippableCapsuleComponent.cpp">
+			<Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\GrippableSkeletalMeshActor.cpp">
+			<Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\GrippableSkeletalMeshComponent.cpp">
+			<Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\GrippableSphereComponent.cpp">
+			<Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\GrippableStaticMeshActor.cpp">
+			<Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\GrippableStaticMeshComponent.cpp">
+			<Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\ParentRelativeAttachmentComponent.cpp">
+			<Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\ReplicatedVRCameraComponent.cpp">
+			<Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRAIController.cpp">
+			<Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRBaseCharacter.cpp">
+			<Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRBaseCharacterMovementComponent.cpp">
+			<Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacter.cpp">
+			<Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRCharacterMovementComponent.cpp">
+			<Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRExpansionFunctionLibrary.cpp">
+			<Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRExpansionPlugin.cpp">
+			<Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRExpansionPluginPrivatePCH.h">
+			<Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRGripInterface.cpp">
+			<Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRPathFollowingComponent.cpp">
+			<Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRPlayerController.cpp">
+			<Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRRootComponent.cpp">
+			<Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRStereoWidgetComponent.cpp">
+			<Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\VRTrackedParentInterface.cpp">
+			<Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private</Filter>
+		</ClCompile >
+		<Filter Include="Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Interactibles">
+			<UniqueIdentifier>{633564E1-736A-4A3A-A85C-777F9A25E659}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Interactibles\VRButtonComponent.cpp">
+			<Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Interactibles</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Interactibles\VRLeverComponent.cpp">
+			<Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Interactibles</Filter>
+		</ClCompile >
+		<Filter Include="Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Misc">
+			<UniqueIdentifier>{B06872E9-A3A6-4BBC-8756-9F30CC55A436}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Misc\VRLogComponent.cpp">
+			<Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\Misc</Filter>
+		</ClCompile >
+		<Filter Include="Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\SimpleChar">
+			<UniqueIdentifier>{55A1565F-BC2B-4999-A1B7-E36D2199ECCF}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\SimpleChar\VRSimpleCharacter.cpp">
+			<Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\SimpleChar</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\SimpleChar\VRSimpleCharacterMovementComponent.cpp">
+			<Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Private\SimpleChar</Filter>
+		</ClCompile >
+		<Filter Include="Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public">
+			<UniqueIdentifier>{0563B4A6-8201-42A5-BE07-45023612A0AF}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\GripMotionControllerComponent.h">
+			<Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\GrippableBoxComponent.h">
+			<Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\GrippableCapsuleComponent.h">
+			<Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\GrippableSkeletalMeshActor.h">
+			<Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\GrippableSkeletalMeshComponent.h">
+			<Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\GrippableSphereComponent.h">
+			<Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\GrippableStaticMeshActor.h">
+			<Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\GrippableStaticMeshComponent.h">
+			<Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\ParentRelativeAttachmentComponent.h">
+			<Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\ReplicatedVRCameraComponent.h">
+			<Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\VRAIController.h">
+			<Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\VRBaseCharacter.h">
+			<Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\VRBaseCharacterMovementComponent.h">
+			<Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\VRBPDatatypes.h">
+			<Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\VRCharacter.h">
+			<Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\VRCharacterMovementComponent.h">
+			<Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\VRExpansionFunctionLibrary.h">
+			<Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\VRExpansionPlugin.h">
+			<Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\VRGripInterface.h">
+			<Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\VRPathFollowingComponent.h">
+			<Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\VRPlayerController.h">
+			<Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\VRRootComponent.h">
+			<Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\VRStereoWidgetComponent.h">
+			<Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\VRTrackedParentInterface.h">
+			<Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Interactibles">
+			<UniqueIdentifier>{A97AC20F-C5FD-4D90-ADFE-848E5BCBC29F}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Interactibles\VRButtonComponent.h">
+			<Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Interactibles</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Interactibles\VRLeverComponent.h">
+			<Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Interactibles</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Misc">
+			<UniqueIdentifier>{9AE7EC85-EB53-404D-83F1-57F8A09DC553}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Misc\VRLogComponent.h">
+			<Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\Misc</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\SimpleChar">
+			<UniqueIdentifier>{7B60EA54-B56C-4C26-AB65-1328254A98A1}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\SimpleChar\VRSimpleCharacter.h">
+			<Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\SimpleChar</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\SimpleChar\VRSimpleCharacterMovementComponent.h">
+			<Filter>Plugins\VRExpansionPlugin\VRExpansionPlugin\Source\VRExpansionPlugin\Public\SimpleChar</Filter>
+		</ClInclude >
+		<Filter Include="Source\SpiderManProject">
+			<UniqueIdentifier>{DAD87415-DB09-4B1C-AE96-A1C0813651B8}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\SpiderManProject\MyClass.cpp">
+			<Filter>Source\SpiderManProject</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\SpiderManProject\MyClass.h">
+			<Filter>Source\SpiderManProject</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\SpiderManProject\SpiderManProject.Build.cs">
+			<Filter>Source\SpiderManProject</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\SpiderManProject\SpiderManProject.cpp">
+			<Filter>Source\SpiderManProject</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\SpiderManProject\SpiderManProject.h">
+			<Filter>Source\SpiderManProject</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>

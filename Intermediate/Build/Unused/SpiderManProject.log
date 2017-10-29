@@ -1,0 +1,19 @@
+﻿  Compiling game modules for hot reload
+  Parsing headers for SpiderManProjectEditor
+    Running UnrealHeaderTool "C:\Users\Aaron\Documents\Unreal Projects\Ultimo-Mk2\SpiderManProject\SpiderManProject.uproject" "C:\Users\Aaron\Documents\Unreal Projects\Ultimo-Mk2\SpiderManProject\Intermediate\Build\Win64\SpiderManProjectEditor\Development\SpiderManProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for SpiderManProjectEditor in 7.2596137 seconds
+  Performing 8 actions (4 in parallel)
+  AdvancedSessions.generated.cpp
+  Module.AdvancedSteamSessions.cpp
+  AdvancedSteamSessions.generated.cpp
+  Module.AdvancedSessions.cpp
+  [5/8] Link UE4Editor-AdvancedSteamSessions-2960.lib
+     Creating library C:\Users\Aaron\Documents\Unreal Projects\Ultimo-Mk2\SpiderManProject\Plugins\AdvancedSessions\AdvancedSteamSessions\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-AdvancedSteamSessions-2960.lib and object C:\Users\Aaron\Documents\Unreal Projects\Ultimo-Mk2\SpiderManProject\Plugins\AdvancedSessions\AdvancedSteamSessions\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-AdvancedSteamSessions-2960.exp
+  [6/8] Link UE4Editor-AdvancedSessions-7739.lib
+  [7/8] Link UE4Editor-AdvancedSessions-7739.dll
+     Creating library C:\Users\Aaron\Documents\Unreal Projects\Ultimo-Mk2\SpiderManProject\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-AdvancedSessions-7739.lib and object C:\Users\Aaron\Documents\Unreal Projects\Ultimo-Mk2\SpiderManProject\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-AdvancedSessions-7739.exp
+     Creating library C:\Users\Aaron\Documents\Unreal Projects\Ultimo-Mk2\SpiderManProject\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-AdvancedSessions-7739.suppressed.lib and object C:\Users\Aaron\Documents\Unreal Projects\Ultimo-Mk2\SpiderManProject\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-AdvancedSessions-7739.suppressed.exp
+  [8/8] Link UE4Editor-AdvancedSteamSessions-2960.dll
+     Creating library C:\Users\Aaron\Documents\Unreal Projects\Ultimo-Mk2\SpiderManProject\Plugins\AdvancedSessions\AdvancedSteamSessions\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-AdvancedSteamSessions-2960.suppressed.lib and object C:\Users\Aaron\Documents\Unreal Projects\Ultimo-Mk2\SpiderManProject\Plugins\AdvancedSessions\AdvancedSteamSessions\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-AdvancedSteamSessions-2960.suppressed.exp
+  Deploying SpiderManProjectEditor Win64 Development...
+  Total build time: 26.96 seconds (Local executor: 14.69 seconds)
